@@ -34,7 +34,7 @@ export const Cards = () => {
           style={{
             backgroundColor: COLORS.accent,
             padding: 20,
-            borderRadius: 15,
+            borderRadius: 20,
             height: 200,
             paddingTop: 30,
             position: idx !== 0 ? 'absolute' : 'relative',
