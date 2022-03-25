@@ -5,7 +5,7 @@ import { COLORS } from '../../constants/theme'
 
 export const Footer = () => {
   return (
-    <View style={{ paddingTop: 320 }}>
+    <View style={{ paddingTop: 60 }}>
       <View
         style={{
           flexDirection: 'row',

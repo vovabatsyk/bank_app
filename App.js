@@ -5,6 +5,7 @@ import { Balance } from './src/components/Balance'
 import { Cards } from './src/components/Cards'
 import { Footer } from './src/components/Footer'
 import { Header } from './src/components/Header'
+import { QuickActions } from './src/components/QuickActions'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <Header />
       <Cards />
       <Balance />
+      <QuickActions />
       <Footer />
     </View>
   )

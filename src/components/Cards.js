@@ -27,7 +27,7 @@ const cards = [
 export const Cards = () => {
   const { user } = useAuth()
   return (
-    <View style={{ position: 'relative' }}>
+    <View style={{ position: 'relative', marginTop: 20 }}>
       {cards.map((card, idx) => (
         <View
           key={card.id}
