@@ -37,7 +37,7 @@ export const Cards = () => {
             borderRadius: 15,
             height: 200,
             paddingTop: 30,
-            position: 'absolute',
+            position: idx !== 0 ? 'absolute' : 'relative',
             top: idx === 1 ? 12 : idx === 2 ? 13 : 0,
             left: 0,
             width: '100%',
