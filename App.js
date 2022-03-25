@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, Text, View } from 'react-native'
-import { linear } from 'react-native/Libraries/Animated/Easing'
 import { COLORS } from './constants/theme'
 import { Balance } from './src/components/Balance'
 import { Cards } from './src/components/Cards'
 import { Footer } from './src/components/Footer'
 import { Header } from './src/components/Header'
+import { QuickActions } from './src/components/QuickActions'
 
 export default function App() {
   return (
@@ -14,13 +14,14 @@ export default function App() {
         padding: 24,
         paddingTop: 55,
         paddingBottom: 75,
-        backgroundColor: COLORS.gray,
+        backgroundColor: COLORS.black,
         height: '100%',
       }}
     >
       <Header />
       <Cards />
       <Balance />
+      <QuickActions />
       <Footer />
     </View>
   )
