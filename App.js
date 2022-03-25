@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar'
 import { StyleSheet, Text, View } from 'react-native'
-import { linear } from 'react-native/Libraries/Animated/Easing'
 import { COLORS } from './constants/theme'
 import { Balance } from './src/components/Balance'
 import { Cards } from './src/components/Cards'
@@ -14,7 +13,7 @@ export default function App() {
         padding: 24,
         paddingTop: 55,
         paddingBottom: 75,
-        backgroundColor: COLORS.gray,
+        backgroundColor: COLORS.black,
         height: '100%',
       }}
     >
